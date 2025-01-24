@@ -1,0 +1,1 @@
+<view class="data-v-274d94a0"><uni-popup wx:if="{{c}}" class="r data-v-274d94a0" u-s="{{['d']}}" bindchange="{{b}}" u-r="message" u-i="274d94a0-0" bind:__l="__l" u-p="{{c}}"><view class="popup-content data-v-274d94a0"><slot></slot></view></uni-popup></view>

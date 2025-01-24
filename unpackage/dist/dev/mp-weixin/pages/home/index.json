@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#313446",
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "custom-tab-bar": "../../components/CustomTabBar",
+    "uni-swipe-action-item": "../../uni_modules/uni-swipe-action/components/uni-swipe-action-item/uni-swipe-action-item",
+    "uni-swipe-action": "../../uni_modules/uni-swipe-action/components/uni-swipe-action/uni-swipe-action"
+  }
+}

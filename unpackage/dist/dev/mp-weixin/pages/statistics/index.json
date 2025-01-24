@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "统计",
+  "usingComponents": {
+    "custom-tab-bar": "../../components/CustomTabBar",
+    "uni-data-select": "../../uni_modules/uni-data-select/components/uni-data-select/uni-data-select",
+    "v-tabs": "../../uni_modules/v-tabs/components/v-tabs/v-tabs"
+  }
+}
