@@ -120,7 +120,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       subTitle: "点击按钮,切换 fab 不同状态",
       type: "line"
     }),
-    j: common_vendor.sr("fab", "0fb42262-2"),
+    j: common_vendor.sr("fab", "d048e9ba-2"),
     k: common_vendor.o($options.trigger),
     l: common_vendor.o($options.fabClick),
     m: common_vendor.p({

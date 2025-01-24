@@ -70,7 +70,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       title: "禁用状态",
       disabled: true
     }),
-    f: common_vendor.sr("collapse", "2862171c-2,2862171c-1"),
+    f: common_vendor.sr("collapse", "4f81c01a-2,4f81c01a-1"),
     g: common_vendor.o($options.change),
     h: common_vendor.o(($event) => $data.value = $event),
     i: common_vendor.p({

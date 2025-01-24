@@ -113,7 +113,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     b: !$data.recording && !$data.playing && !$data.hasRecord
   }, !$data.recording && !$data.playing && !$data.hasRecord ? {
     c: common_vendor.t($data.formatedRecordTime),
-    d: common_assets._imports_0$9,
+    d: common_assets._imports_0$10,
     e: common_vendor.o((...args) => $options.startRecord && $options.startRecord(...args))
   } : {}, {
     f: $data.recording === true
@@ -134,7 +134,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   }, $data.hasRecord === true && $data.playing === true ? {
     q: common_vendor.t($data.formatedPlayTime),
     r: common_vendor.t($data.formatedRecordTime),
-    s: common_assets._imports_0$8,
+    s: common_assets._imports_0$9,
     t: common_vendor.o((...args) => $options.stopVoice && $options.stopVoice(...args)),
     v: common_assets._imports_2,
     w: common_vendor.o((...args) => $options.clear && $options.clear(...args))

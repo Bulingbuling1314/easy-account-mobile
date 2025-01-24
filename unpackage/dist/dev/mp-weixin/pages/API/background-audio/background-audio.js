@@ -91,7 +91,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     d: common_vendor.o((...args) => $options.seek && $options.seek(...args)),
     e: $data.playing
   }, $data.playing ? {
-    f: common_assets._imports_0$8,
+    f: common_assets._imports_0$9,
     g: common_vendor.o((...args) => $options.stop && $options.stop(...args)),
     h: common_assets._imports_1$1,
     i: common_vendor.o((...args) => $options.pause && $options.pause(...args))

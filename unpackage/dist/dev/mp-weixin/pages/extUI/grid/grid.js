@@ -110,9 +110,9 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     }),
     b: common_vendor.f(4, (item, index, i0) => {
       return {
-        a: "80e26568-4-" + i0 + "," + ("80e26568-3-" + i0),
+        a: "21a620eb-4-" + i0 + "," + ("21a620eb-3-" + i0),
         b: index,
-        c: "80e26568-3-" + i0 + ",80e26568-2",
+        c: "21a620eb-3-" + i0 + ",21a620eb-2",
         d: common_vendor.p({
           index
         })
@@ -135,9 +135,9 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     }),
     g: common_vendor.f(8, (item, index, i0) => {
       return {
-        a: "80e26568-8-" + i0 + "," + ("80e26568-7-" + i0),
+        a: "21a620eb-8-" + i0 + "," + ("21a620eb-7-" + i0),
         b: index,
-        c: "80e26568-7-" + i0 + ",80e26568-6",
+        c: "21a620eb-7-" + i0 + ",21a620eb-6",
         d: common_vendor.p({
           index
         })
@@ -163,7 +163,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
         a: item.url,
         b: common_vendor.t(item.text),
         c: index,
-        d: "80e26568-11-" + i0 + ",80e26568-10",
+        d: "21a620eb-11-" + i0 + ",21a620eb-10",
         e: common_vendor.p({
           index
         })
@@ -179,7 +179,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
         a: item.url,
         b: common_vendor.t(item.text),
         c: index,
-        d: "80e26568-13-" + i0 + ",80e26568-12",
+        d: "21a620eb-13-" + i0 + ",21a620eb-12",
         e: common_vendor.p({
           index
         })
@@ -195,7 +195,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
         a: item.url,
         b: common_vendor.t(item.text),
         c: index,
-        d: "80e26568-15-" + i0 + ",80e26568-14",
+        d: "21a620eb-15-" + i0 + ",21a620eb-14",
         e: common_vendor.p({
           index
         })
@@ -217,7 +217,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
         b: common_vendor.t(item.text),
         c: item.color,
         d: index,
-        e: "80e26568-18-" + i0 + ",80e26568-17",
+        e: "21a620eb-18-" + i0 + ",21a620eb-17",
         f: common_vendor.p({
           index
         })
@@ -244,14 +244,14 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
         b: common_vendor.t(item.text),
         c: item.badge
       }, item.badge ? {
-        d: "80e26568-22-" + i0 + "," + ("80e26568-21-" + i0),
+        d: "21a620eb-22-" + i0 + "," + ("21a620eb-21-" + i0),
         e: common_vendor.p({
           text: item.badge,
           type: item.type
         })
       } : {}, {
         f: index,
-        g: "80e26568-21-" + i0 + ",80e26568-20",
+        g: "21a620eb-21-" + i0 + ",21a620eb-20",
         h: common_vendor.p({
           index
         })
@@ -273,7 +273,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
         a: item.url,
         b: common_vendor.t(item.text),
         c: index,
-        d: "80e26568-25-" + i0 + ",80e26568-24",
+        d: "21a620eb-25-" + i0 + ",21a620eb-24",
         e: common_vendor.p({
           index
         })
@@ -290,7 +290,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       type: "line",
       padding: true
     }),
-    L: common_assets._imports_0$11,
+    L: common_assets._imports_0$12,
     M: common_vendor.p({
       index: 0
     }),

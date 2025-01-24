@@ -221,14 +221,14 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       title: "显示图标或图片",
       type: "line"
     }),
-    P: common_assets._imports_0$10,
+    P: common_assets._imports_0$11,
     Q: common_vendor.p({
       title: "自定义右侧插槽",
       note: "列表描述信息",
       link: true
     }),
-    R: common_assets._imports_0$10,
-    S: common_assets._imports_0$10,
+    R: common_assets._imports_0$11,
+    S: common_assets._imports_0$11,
     T: common_vendor.p({
       title: "使用插槽",
       type: "line"

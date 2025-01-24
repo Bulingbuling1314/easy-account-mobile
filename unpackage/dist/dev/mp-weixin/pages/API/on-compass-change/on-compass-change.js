@@ -31,7 +31,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     a: common_vendor.p({
       title: $data.title
     }),
-    b: common_assets._imports_0$7,
+    b: common_assets._imports_0$8,
     c: common_vendor.s("transform: rotate(" + $data.direction + "deg)"),
     d: common_vendor.t($data.direction)
   };

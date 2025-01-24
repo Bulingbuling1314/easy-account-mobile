@@ -356,7 +356,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   } : common_vendor.e({
     c: !$props.hasLeftWin
   }, !$props.hasLeftWin ? {
-    d: common_assets._imports_0$2
+    d: common_assets._imports_0$3
   } : {}, {
     e: !$props.hasLeftWin
   }, !$props.hasLeftWin ? {

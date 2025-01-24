@@ -44,10 +44,20 @@
 					<view>按日期</view>
 				</view>
 				<view class="body">
-					<view class="body-item">
+					<view class="body-item" v-for="i in 15" :key='i'>
 						<image src="/static/icons/free-zf-chosed.png" mode=""></image>
-						<view class="">
-
+						<view class="body-item-desc">
+							<view class="item-summary">
+								<view>
+									早午晚餐 <text>200笔 95%</text>
+								</view>
+								<view>
+									5000.99
+								</view>
+							</view>
+							<view class="process">
+								<f-process></f-process>
+							</view>
 						</view>
 					</view>
 				</view>
@@ -130,6 +140,7 @@
 		color: #FFFFFF;
 		padding: 0 32rpx;
 		box-sizing: border-box;
+		overflow: hidden;
 
 		.select-type {
 			/* #ifndef MP-WEIXIN */
@@ -225,11 +236,16 @@
 		}
 
 		.main-box {
+			background: #fff;
+			border-radius: 30rpx;
+			margin-top: 48rpx;
+			/* flex: auto; */
+			height: calc(100% - 120rpx);
+
 			.header {
-				margin-top: 48rpx;
+
 				padding: 26rpx 32rpx;
-				background: #fff;
-				border-radius: 30rpx;
+
 				display: flex;
 				align-items: center;
 				justify-content: space-between;
@@ -268,11 +284,64 @@
 			.body {
 				padding: 0 32rpx;
 				border-top: 2rpx solid #F1F1F1;
+				padding-bottom: 32rpx;
+				overflow-y: auto;
+				height: calc(100% - 440rpx);
 
 				.body-item {
 					padding-top: 20rpx;
+					display: flex;
+					align-items: center;
+					gap: 16rpx;
+
+					image {
+						width: 60rpx;
+						height: 60rpx;
+					}
+
+					.body-item-desc {
+						flex: 1;
+						display: flex;
+						flex-direction: column;
+						gap: 8rpx;
+						font-family: PingFang SC;
+						font-size: 32rpx;
+						font-weight: 400;
+						line-height: 44.8rpx;
+						text-align: left;
+						text-underline-position: from-font;
+						text-decoration-skip-ink: none;
+						color: #333;
+						padding-bottom: 20rpx;
+						border-bottom: 2rpx solid #F1F1F1;
+
+						.item-summary {
+							display: flex;
+							align-items: center;
+							justify-content: space-between;
+
+							view:first-child {
+								display: flex;
+								gap: 16rpx;
+								align-items: flex-end;
+
+								text {
+									font-family: PingFang SC;
+									font-size: 22rpx;
+									font-weight: 400;
+									line-height: 30.8rpx;
+									text-align: left;
+									text-underline-position: from-font;
+									text-decoration-skip-ink: none;
+									color: #999;
+								}
+							}
+						}
+
+					}
 				}
 			}
+
 		}
 	}
 </style>

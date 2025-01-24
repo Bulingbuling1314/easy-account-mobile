@@ -118,7 +118,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       padding: true
     }),
     x: $data.type === "left" || $data.type === "right" ? 1 : "",
-    y: common_vendor.sr("popup", "56768d6c-6"),
+    y: common_vendor.sr("popup", "3749adad-6"),
     z: common_vendor.o($options.change),
     A: common_vendor.p({
       ["background-color"]: "#fff"
@@ -128,7 +128,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       message: $data.messageText,
       duration: 2e3
     }),
-    C: common_vendor.sr("message", "56768d6c-7"),
+    C: common_vendor.sr("message", "3749adad-7"),
     D: common_vendor.p({
       type: "message"
     }),
@@ -141,11 +141,11 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       title: "通知",
       content: "欢迎使用 uni-popup!"
     }),
-    H: common_vendor.sr("alertDialog", "56768d6c-9"),
+    H: common_vendor.sr("alertDialog", "3749adad-9"),
     I: common_vendor.p({
       type: "dialog"
     }),
-    J: common_vendor.sr("inputClose", "56768d6c-12,56768d6c-11"),
+    J: common_vendor.sr("inputClose", "3749adad-12,3749adad-11"),
     K: common_vendor.o($options.dialogInputConfirm),
     L: common_vendor.p({
       mode: "input",
@@ -153,11 +153,11 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       value: "对话框预置提示内容!",
       placeholder: "请输入内容"
     }),
-    M: common_vendor.sr("inputDialog", "56768d6c-11"),
+    M: common_vendor.sr("inputDialog", "3749adad-11"),
     N: common_vendor.p({
       type: "dialog"
     }),
-    O: common_vendor.sr("share", "56768d6c-13"),
+    O: common_vendor.sr("share", "3749adad-13"),
     P: common_vendor.p({
       type: "share",
       safeArea: true,

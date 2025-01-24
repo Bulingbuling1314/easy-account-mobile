@@ -1,5 +1,6 @@
 "use strict";
 const common_vendor = require("../../common/vendor.js");
+const common_assets = require("../../common/assets.js");
 const CustomTabBar = () => "../../components/CustomTabBar.js";
 const _sfc_main = {
   components: {
@@ -50,13 +51,15 @@ const _sfc_main = {
 if (!Array) {
   const _easycom_uni_data_select2 = common_vendor.resolveComponent("uni-data-select");
   const _easycom_v_tabs2 = common_vendor.resolveComponent("v-tabs");
+  const _easycom_f_process2 = common_vendor.resolveComponent("f-process");
   const _component_CustomTabBar = common_vendor.resolveComponent("CustomTabBar");
-  (_easycom_uni_data_select2 + _easycom_v_tabs2 + _component_CustomTabBar)();
+  (_easycom_uni_data_select2 + _easycom_v_tabs2 + _easycom_f_process2 + _component_CustomTabBar)();
 }
 const _easycom_uni_data_select = () => "../../uni_modules/uni-data-select/components/uni-data-select/uni-data-select.js";
 const _easycom_v_tabs = () => "../../uni_modules/v-tabs/components/v-tabs/v-tabs.js";
+const _easycom_f_process = () => "../../components/f-process/f-process.js";
 if (!Math) {
-  (_easycom_uni_data_select + _easycom_v_tabs)();
+  (_easycom_uni_data_select + _easycom_v_tabs + _easycom_f_process)();
 }
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return {
@@ -85,7 +88,14 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     h: $data.chosedType == "支出" ? 1 : "",
     i: common_vendor.o(($event) => $options.summaryItemChange("收入")),
     j: $data.chosedType == "收入" ? 1 : "",
-    k: $data.navbarHeight + "px"
+    k: common_vendor.f(15, (i, k0, i0) => {
+      return {
+        a: "6e199430-2-" + i0,
+        b: i
+      };
+    }),
+    l: common_assets._imports_0$2,
+    m: $data.navbarHeight + "px"
   };
 }
 const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-6e199430"]]);

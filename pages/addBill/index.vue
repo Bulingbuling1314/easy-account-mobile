@@ -70,9 +70,9 @@
 				:dots-styles="dotStyle" field="content">
 				<swiper class="swiper-box" @change="change" :current="swiperDotIndex">
 					<swiper-item>
-						<view class="swiper-item" style="justify-content: flex-start;">
-							<view class="swiper-item-item" v-for="(i,j) in swipperIncomeData" :key='j'
-								@click="freeItemChosed(i)">
+						<view class="swiper-item" style="justify-content: flex-start;gap:45rpx">
+							<view class="swiper-item-item" style="width:90rpx" v-for="(i,j) in swipperIncomeData"
+								:key='j' @click="freeItemChosed(i)">
 								<image :src="freeChosedData.text==i.text?i.iconChosed:i.icon" mode=""></image>
 								<text>{{i.text}}</text>
 							</view>

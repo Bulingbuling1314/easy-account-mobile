@@ -130,7 +130,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     b: common_vendor.f($data.listData, (item, k0, i0) => {
       return {
         a: item.id,
-        b: "0c0ea4cc-3-" + i0 + ",0c0ea4cc-2",
+        b: "27fee14d-3-" + i0 + ",27fee14d-2",
         c: common_vendor.p({
           ["avatar-circle"]: true,
           title: item.author_name,
@@ -151,7 +151,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     e: common_vendor.f($data.listData, (item, k0, i0) => {
       return {
         a: item.id,
-        b: "0c0ea4cc-6-" + i0 + ",0c0ea4cc-5",
+        b: "27fee14d-6-" + i0 + ",27fee14d-5",
         c: common_vendor.p({
           title: item.author_name,
           avatar: item.cover,
@@ -170,9 +170,9 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     }),
     g: common_vendor.f($data.listData, (item, k0, i0) => {
       return {
-        a: "0c0ea4cc-10-" + i0 + "," + ("0c0ea4cc-9-" + i0),
+        a: "27fee14d-10-" + i0 + "," + ("27fee14d-9-" + i0),
         b: item.id,
-        c: "0c0ea4cc-9-" + i0 + ",0c0ea4cc-8",
+        c: "27fee14d-9-" + i0 + ",27fee14d-8",
         d: common_vendor.p({
           title: item.author_name,
           avatar: item.cover,
@@ -195,7 +195,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       return {
         a: item.id,
         b: common_vendor.o($options.onClick, item.id),
-        c: "0c0ea4cc-13-" + i0 + ",0c0ea4cc-12",
+        c: "27fee14d-13-" + i0 + ",27fee14d-12",
         d: common_vendor.p({
           title: item.author_name,
           avatar: item.cover,
@@ -214,7 +214,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       return {
         a: item.id,
         b: common_vendor.o($options.onClick, item.id),
-        c: "0c0ea4cc-16-" + i0 + ",0c0ea4cc-15",
+        c: "27fee14d-16-" + i0 + ",27fee14d-15",
         d: common_vendor.p({
           title: item.author_name,
           avatar: item.cover,
